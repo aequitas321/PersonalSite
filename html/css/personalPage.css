@@ -1,5 +1,42 @@
+body{
+  background: black;
+}
+
 .aboutMe{
   background: #222831;
   color: #00909e;
   text-align: center;
+}
+
+.aboutMe>ul{
+  padding-left: 0;
+}
+
+.aboutMe>ul>li{
+  list-style: none;
+}
+
+.skillImg{
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+}
+
+.contact{
+  background: #30475e;
+  height: 500px;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+#github>img{
+  height: 50px;
+  width: 50px;
+}
+
+#linked-in>img{
+  height: 50px;
+  width: 50px;
 }
